@@ -1,0 +1,14 @@
+average bucketing time (each bucket)  0.0016399979591369628
+
+average pure train time per epoch  0.07333564758300781
+
+average features & labels loading time per epoch 0.26065897941589355
+average block to device per epoch 0.015139034816196986
+
+average  metis partition  per epoch 2.3665
+
+average  REG + block gen per epoch 11.45611408738052
+
+average epoch time w/o REG + block gen 0.406409638268607
+
+average epoch time including REG + block gen 11.865586399545474

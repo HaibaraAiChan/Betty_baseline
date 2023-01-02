@@ -1,0 +1,916 @@
+main start at this time 1671755558.8054352
+-----------------------------------------before load data 
+ Nvidia-smi: 1.7822265625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 1.7822265625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+Epoch:  0
+REG start----................................
+Convert a graph into a bidirected graph: 0.571 seconds, peak memory: 30.229 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 30.229 GB
+Metis partitioning: 2.362 seconds, peak memory: 30.229 GB
+Split the graph: 0.719 seconds
+Construct subgraphs: 0.085 seconds
+REG metis partition end ----................................
+connection checking time:  1.6142823696136475
+block generation total time  1.4842839241027832
+average batch blocks generation time:  0.3710709810256958
+----------------------------------------before batch input features to device
+ Nvidia-smi: 2.9541015625 GB
+    Memory Allocated: 0.0003376007080078125  GigaBytes
+Max Memory Allocated: 0.0003376007080078125  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 3.0419921875 GB
+    Memory Allocated: 0.08667278289794922  GigaBytes
+Max Memory Allocated: 0.08667278289794922  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 3.0419921875 GB
+    Memory Allocated: 0.08703088760375977  GigaBytes
+Max Memory Allocated: 0.08703088760375977  GigaBytes
+
+
+_buckting time :  0.0017573833465576172
+----------------------------------------before batch input features to device
+ Nvidia-smi: 6.3486328125 GB
+    Memory Allocated: 0.09577751159667969  GigaBytes
+Max Memory Allocated: 3.1907715797424316  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 6.3486328125 GB
+    Memory Allocated: 0.17861509323120117  GigaBytes
+Max Memory Allocated: 3.1907715797424316  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 6.3486328125 GB
+    Memory Allocated: 0.17899036407470703  GigaBytes
+Max Memory Allocated: 3.1907715797424316  GigaBytes
+
+
+_buckting time :  0.0012516975402832031
+----------------------------------------before batch input features to device
+ Nvidia-smi: 8.6884765625 GB
+    Memory Allocated: 0.09270286560058594  GigaBytes
+Max Memory Allocated: 3.353264808654785  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 8.6884765625 GB
+    Memory Allocated: 0.18442726135253906  GigaBytes
+Max Memory Allocated: 3.353264808654785  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 8.6884765625 GB
+    Memory Allocated: 0.1847853660583496  GigaBytes
+Max Memory Allocated: 3.353264808654785  GigaBytes
+
+
+_buckting time :  0.0012636184692382812
+----------------------------------------before batch input features to device
+ Nvidia-smi: 8.7060546875 GB
+    Memory Allocated: 0.1011652946472168  GigaBytes
+Max Memory Allocated: 3.353264808654785  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 8.7060546875 GB
+    Memory Allocated: 0.1937861442565918  GigaBytes
+Max Memory Allocated: 3.353264808654785  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 8.7060546875 GB
+    Memory Allocated: 0.19416046142578125  GigaBytes
+Max Memory Allocated: 3.353264808654785  GigaBytes
+
+
+_buckting time :  0.0011878013610839844
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.0813974142074585 |0.07195717096328735 |0.07529157400131226 |0.00013148784637451172 |0.010567963123321533 |0.0016584396362304688 |
+----------------------------------------------------------pseudo_mini_loss sum 4.791750907897949
+Epoch:  1
+REG start----................................
+Convert a graph into a bidirected graph: 0.575 seconds, peak memory: 43.873 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 43.873 GB
+Metis partitioning: 2.513 seconds, peak memory: 44.109 GB
+Split the graph: 0.789 seconds
+Construct subgraphs: 0.004 seconds
+REG metis partition end ----................................
+connection checking time:  1.5711774826049805
+block generation total time  2.1634180545806885
+average batch blocks generation time:  0.5408545136451721
+----------------------------------------before batch input features to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.10337686538696289  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.1865372657775879  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.18689489364624023  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+
+_buckting time :  0.0014085769653320312
+----------------------------------------before batch input features to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.09326314926147461  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.1762552261352539  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.17663002014160156  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+
+_buckting time :  0.001230001449584961
+----------------------------------------before batch input features to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.09351968765258789  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.18831729888916016  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.1886763572692871  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+
+_buckting time :  0.0011780261993408203
+----------------------------------------before batch input features to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.10493946075439453  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.20042943954467773  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 8.8916015625 GB
+    Memory Allocated: 0.2008037567138672  GigaBytes
+Max Memory Allocated: 3.3563485145568848  GigaBytes
+
+
+_buckting time :  0.0011646747589111328
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.06550824642181396 |0.002700328826904297 |0.019328057765960693 |0.00010567903518676758 |0.0073541998863220215 |0.0007905960083007812 |
+----------------------------------------------------------pseudo_mini_loss sum 4.72733736038208
+Epoch:  2
+REG start----................................
+Convert a graph into a bidirected graph: 0.569 seconds, peak memory: 52.268 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.268 GB
+Metis partitioning: 2.547 seconds, peak memory: 52.501 GB
+Split the graph: 0.788 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+connection checking time:  1.563786268234253
+block generation total time  1.5934016704559326
+average batch blocks generation time:  0.39835041761398315
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7138671875 GB
+    Memory Allocated: 0.10600614547729492  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7138671875 GB
+    Memory Allocated: 0.19048500061035156  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7138671875 GB
+    Memory Allocated: 0.1908421516418457  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+
+_buckting time :  0.0013704299926757812
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7138671875 GB
+    Memory Allocated: 0.09457635879516602  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7138671875 GB
+    Memory Allocated: 0.17743873596191406  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7138671875 GB
+    Memory Allocated: 0.17781352996826172  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+
+_buckting time :  0.0012650489807128906
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7138671875 GB
+    Memory Allocated: 0.09339570999145508  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7138671875 GB
+    Memory Allocated: 0.19008541107177734  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7138671875 GB
+    Memory Allocated: 0.1904439926147461  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+
+_buckting time :  0.0012362003326416016
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7158203125 GB
+    Memory Allocated: 0.10682010650634766  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7158203125 GB
+    Memory Allocated: 0.20291900634765625  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7158203125 GB
+    Memory Allocated: 0.2032938003540039  GigaBytes
+Max Memory Allocated: 3.363868236541748  GigaBytes
+
+
+_buckting time :  0.0012576580047607422
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.06385958194732666 |0.00304335355758667 |0.017668724060058594 |9.971857070922852e-05 |0.006899058818817139 |0.00070953369140625 |
+----------------------------------------------------------pseudo_mini_loss sum 4.663529396057129
+Epoch:  3
+REG start----................................
+Convert a graph into a bidirected graph: 0.555 seconds, peak memory: 58.594 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 58.594 GB
+Metis partitioning: 2.535 seconds, peak memory: 58.821 GB
+Split the graph: 0.855 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+connection checking time:  1.5563170909881592
+block generation total time  1.559164047241211
+average batch blocks generation time:  0.38979101181030273
+block dataloader generation time/epoch 10.741559267044067
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7158203125 GB
+    Memory Allocated: 0.10662603378295898  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7158203125 GB
+    Memory Allocated: 0.20068883895874023  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7158203125 GB
+    Memory Allocated: 0.20104742050170898  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0014095306396484375
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.10419702529907227  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.19415521621704102  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.19451379776000977  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012378692626953125
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.10009431838989258  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18383407592773438  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18420791625976562  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012240409851074219
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.09424066543579102  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18213129043579102  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18250560760498047  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0010895729064941406
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.060244202613830566 |0.004320740699768066 |0.017406821250915527 |0.00010627508163452148 |0.007316172122955322 |0.0007534027099609375 |
+----------------------------------------------------------pseudo_mini_loss sum 4.598840713500977
+Total (block generation + training)time/epoch 11.129902601242065
+Training time/epoch 0.3880603313446045
+Training time without block to device /epoch 0.3707773685455322
+Training time without total dataloading part(pure training) /epoch 0.10007047653198242
+load block tensor time/epoch 0.24097681045532227
+block to device time/epoch 0.017282962799072266
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+Epoch:  4
+REG start----................................
+Convert a graph into a bidirected graph: 0.545 seconds, peak memory: 62.759 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 62.759 GB
+Metis partitioning: 2.552 seconds, peak memory: 62.992 GB
+Split the graph: 0.703 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+connection checking time:  1.5906610488891602
+block generation total time  1.5862061977386475
+average batch blocks generation time:  0.39655154943466187
+block dataloader generation time/epoch 10.65370261669159
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.09840726852416992  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18390321731567383  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.1842656135559082  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0013663768768310547
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.09604454040527344  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18279314041137695  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.1831669807434082  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.001251220703125
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.09724855422973633  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18786096572875977  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18822050094604492  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012249946594238281
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.10093879699707031  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.1930561065673828  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.19342613220214844  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012276172637939453
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.06460285186767578 |0.003876209259033203 |0.01792973279953003 |9.97781753540039e-05 |0.007131695747375488 |0.0006761550903320312 |
+----------------------------------------------------------pseudo_mini_loss sum 4.535375118255615
+Total (block generation + training)time/epoch 11.050068140029907
+Training time/epoch 0.4042329788208008
+Training time without block to device /epoch 0.38872814178466797
+Training time without total dataloading part(pure training) /epoch 0.10132098197937012
+load block tensor time/epoch 0.2584114074707031
+block to device time/epoch 0.015504837036132812
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+Epoch:  5
+REG start----................................
+Convert a graph into a bidirected graph: 0.581 seconds, peak memory: 62.992 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 62.992 GB
+Metis partitioning: 2.613 seconds, peak memory: 62.992 GB
+Split the graph: 0.797 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+connection checking time:  1.6140482425689697
+block generation total time  1.5806324481964111
+average batch blocks generation time:  0.3951581120491028
+block dataloader generation time/epoch 10.715816815694174
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.1025238037109375  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.19077777862548828  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.19115066528320312  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0014057159423828125
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.0987386703491211  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18045759201049805  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.180816650390625  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.001230478286743164
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.09185791015625  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18608760833740234  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.1864480972290039  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012354850769042969
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.10505056381225586  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.19941377639770508  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.19978666305541992  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012478828430175781
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.05671483278274536 |0.00419926643371582 |0.018381953239440918 |0.00010144710540771484 |0.007511496543884277 |0.0007874965667724609 |
+----------------------------------------------------------pseudo_mini_loss sum 4.470558166503906
+Total (block generation + training)time/epoch 11.105814218521118
+Training time/epoch 0.3770787715911865
+Training time without block to device /epoch 0.36028170585632324
+Training time without total dataloading part(pure training) /epoch 0.1047670841217041
+load block tensor time/epoch 0.22685933113098145
+block to device time/epoch 0.01679706573486328
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+Epoch:  6
+REG start----................................
+Convert a graph into a bidirected graph: 0.552 seconds, peak memory: 62.992 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 62.992 GB
+Metis partitioning: 2.498 seconds, peak memory: 62.992 GB
+Split the graph: 0.643 seconds
+Construct subgraphs: 0.031 seconds
+REG metis partition end ----................................
+connection checking time:  1.5903239250183105
+block generation total time  1.3490045070648193
+average batch blocks generation time:  0.33725112676620483
+block dataloader generation time/epoch 10.627361118793488
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.10484695434570312  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18792057037353516  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18829631805419922  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0014309883117675781
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.0936279296875  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.17768001556396484  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.17803716659545898  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.001239776611328125
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.09415149688720703  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18806886672973633  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18842697143554688  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012526512145996094
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.10403919219970703  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.20095539093017578  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.20132970809936523  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0011289119720458984
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.061534345149993896 |0.0028121471405029297 |0.017379343509674072 |0.0001112818717956543 |0.008742690086364746 |0.0007550716400146484 |
+----------------------------------------------------------pseudo_mini_loss sum 4.40479850769043
+Total (block generation + training)time/epoch 11.017733931541443
+Training time/epoch 0.39130449295043945
+Training time without block to device /epoch 0.38005590438842773
+Training time without total dataloading part(pure training) /epoch 0.10568833351135254
+load block tensor time/epoch 0.24613738059997559
+block to device time/epoch 0.011248588562011719
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+Epoch:  7
+REG start----................................
+Convert a graph into a bidirected graph: 0.592 seconds, peak memory: 62.992 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 62.992 GB
+Metis partitioning: 2.521 seconds, peak memory: 63.053 GB
+Split the graph: 0.680 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+connection checking time:  1.647352933883667
+block generation total time  1.5910780429840088
+average batch blocks generation time:  0.3977695107460022
+block dataloader generation time/epoch 10.640436792373658
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.10742902755737305  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.1995081901550293  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.19988250732421875  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0014498233795166016
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.10259771347045898  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.19494915008544922  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.19531011581420898  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012319087982177734
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.1025385856628418  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18481779098510742  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18518972396850586  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012221336364746094
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.09274005889892578  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18063068389892578  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18098878860473633  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012226104736328125
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.06800663471221924 |0.0031189322471618652 |0.01766759157180786 |0.00010323524475097656 |0.007062733173370361 |0.0010044574737548828 |
+----------------------------------------------------------pseudo_mini_loss sum 4.338068008422852
+Total (block generation + training)time/epoch 11.036351633071899
+Training time/epoch 0.4178750514984131
+Training time without block to device /epoch 0.4053993225097656
+Training time without total dataloading part(pure training) /epoch 0.10033869743347168
+load block tensor time/epoch 0.27202653884887695
+block to device time/epoch 0.012475728988647461
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+Epoch:  8
+REG start----................................
+Convert a graph into a bidirected graph: 0.585 seconds, peak memory: 63.053 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 63.053 GB
+Metis partitioning: 2.531 seconds, peak memory: 63.060 GB
+Split the graph: 0.656 seconds
+Construct subgraphs: 0.020 seconds
+REG metis partition end ----................................
+connection checking time:  1.5596182346343994
+block generation total time  1.6524858474731445
+average batch blocks generation time:  0.41312146186828613
+block dataloader generation time/epoch 10.670786539713541
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.09801197052001953  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18326139450073242  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18363094329833984  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0014047622680664062
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.09564638137817383  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.1798110008239746  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18018007278442383  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012404918670654297
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.09455537796020508  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18794584274291992  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7236328125 GB
+    Memory Allocated: 0.18830394744873047  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.00115203857421875
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.10350799560546875  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.19613933563232422  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.19650840759277344  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0011649131774902344
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.06358605623245239 |0.0030140280723571777 |0.017637252807617188 |0.00010573863983154297 |0.009402692317962646 |0.0009667873382568359 |
+----------------------------------------------------------pseudo_mini_loss sum 4.270596504211426
+Total (block generation + training)time/epoch 11.066757996877035
+Training time/epoch 0.3960704803466797
+Training time without block to device /epoch 0.384014368057251
+Training time without total dataloading part(pure training) /epoch 0.10954952239990234
+load block tensor time/epoch 0.25434422492980957
+block to device time/epoch 0.012056112289428711
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+Epoch:  9
+REG start----................................
+Convert a graph into a bidirected graph: 0.577 seconds, peak memory: 63.060 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 63.060 GB
+Metis partitioning: 2.571 seconds, peak memory: 63.061 GB
+Split the graph: 0.643 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+connection checking time:  1.6339621543884277
+block generation total time  1.3333721160888672
+average batch blocks generation time:  0.3333430290222168
+block dataloader generation time/epoch 10.642073426927839
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.10301494598388672  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.18616485595703125  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.1865220069885254  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0014317035675048828
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.09325122833251953  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.1760721206665039  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.17644739151000977  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012700557708740234
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.09335803985595703  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.1853933334350586  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.18575191497802734  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.0012445449829101562
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.10216856002807617  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.19767236709594727  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.7255859375 GB
+    Memory Allocated: 0.19804668426513672  GigaBytes
+Max Memory Allocated: 3.3690381050109863  GigaBytes
+
+
+_buckting time :  0.00125885009765625
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.06519150733947754 |0.0038828253746032715 |0.019113600254058838 |0.00010758638381958008 |0.017320752143859863 |0.0011425018310546875 |
+----------------------------------------------------------pseudo_mini_loss sum 4.199009418487549
+Total (block generation + training)time/epoch 11.044711215155465
+Training time/epoch 0.44243812561035156
+Training time without block to device /epoch 0.4269068241119385
+Training time without total dataloading part(pure training) /epoch 0.1473102569580078
+load block tensor time/epoch 0.26076602935791016
+block to device time/epoch 0.015531301498413086
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+

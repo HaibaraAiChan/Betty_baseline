@@ -1,0 +1,39 @@
+main start at this time 1668816565.858434
+ogbn-arxiv
+# Nodes: 169343
+# Edges: 2315598
+# Train: 90941
+# Val: 29799
+# Test: 48603
+# Classes: 40
+
+in feats:  128
+REG start----................................
+Convert a graph into a bidirected graph: 0.590 seconds, peak memory: 25.481 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 25.481 GB
+Metis partitioning: 2.480 seconds, peak memory: 25.676 GB
+Split the graph: 1.979 seconds
+Construct subgraphs: 0.004 seconds
+REG metis partition end ----................................
+the counter of in-degree of the smallest block in current batch !!!!!!!!!!!!!!!!!!!!!!!!
+Counter({10: 13017, 1: 6590, 2: 5921, 3: 4952, 4: 3975, 5: 3356, 6: 2681, 7: 2310, 8: 1977, 9: 1654})
+
+the counter of in-degree of the smallest block in current batch !!!!!!!!!!!!!!!!!!!!!!!!
+Counter({10: 14610, 1: 6838, 2: 5785, 3: 4325, 4: 3345, 5: 2866, 6: 2187, 7: 1735, 8: 1495, 9: 1322})
+
+ Run 0| Epoch 0 |
+GraphSAGE(
+  (layers): ModuleList(
+    (0): SAGEConv(
+      (fc_self): Linear(in_features=128, out_features=40, bias=False)
+      (fc_neigh): Linear(in_features=128, out_features=40, bias=False)
+    )
+  )
+  (dropout): Dropout(p=0.5, inplace=False)
+)
+total model parameters size  10240
+trainable parameters
+layers.0.fc_self.weight, torch.Size([40, 128])
+layers.0.fc_neigh.weight, torch.Size([40, 128])
+----------------------------------------
+un-trainable parameters

@@ -1,0 +1,7 @@
+average bucketing time (each bucket)  0.002014565467834473
+
+average pure train time per epoch  0.04477511133466448
+
+average features & labels loading time per epoch 0.12184585843767438
+average block to device per epoch 0.007439136505126953
+

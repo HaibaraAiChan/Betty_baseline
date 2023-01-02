@@ -1,0 +1,1450 @@
+main start at this time 1668818147.1302013
+ogbn-arxiv
+# Nodes: 169343
+# Edges: 2315598
+# Train: 90941
+# Val: 29799
+# Test: 48603
+# Classes: 40
+
+in feats:  128
+REG start----................................
+Convert a graph into a bidirected graph: 0.586 seconds, peak memory: 25.453 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 25.453 GB
+Metis partitioning: 2.755 seconds, peak memory: 25.816 GB
+Split the graph: 1.692 seconds
+Construct subgraphs: 0.006 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00000 | Loss 3.8570 | Train 0.0592 | Val 0.0441 | Test 0.0431
+REG start----................................
+Convert a graph into a bidirected graph: 0.599 seconds, peak memory: 34.289 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 34.289 GB
+Metis partitioning: 2.716 seconds, peak memory: 34.674 GB
+Split the graph: 1.630 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00001 | Loss 3.5328 | Train 0.1092 | Val 0.0772 | Test 0.0845
+REG start----................................
+Convert a graph into a bidirected graph: 0.568 seconds, peak memory: 41.537 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 41.537 GB
+Metis partitioning: 2.628 seconds, peak memory: 41.911 GB
+Split the graph: 1.593 seconds
+Construct subgraphs: 0.024 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00002 | Loss 3.3076 | Train 0.1380 | Val 0.0838 | Test 0.0832
+REG start----................................
+Convert a graph into a bidirected graph: 0.626 seconds, peak memory: 48.871 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 48.871 GB
+Metis partitioning: 2.631 seconds, peak memory: 49.224 GB
+Split the graph: 1.725 seconds
+Construct subgraphs: 0.053 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00003 | Loss 3.1631 | Train 0.1666 | Val 0.0833 | Test 0.0728
+REG start----................................
+Convert a graph into a bidirected graph: 0.609 seconds, peak memory: 49.508 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 49.508 GB
+Metis partitioning: 2.824 seconds, peak memory: 49.834 GB
+Split the graph: 1.799 seconds
+Construct subgraphs: 0.066 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00004 | Loss 3.0679 | Train 0.1764 | Val 0.0792 | Test 0.0624
+REG start----................................
+Convert a graph into a bidirected graph: 0.601 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.765 seconds, peak memory: 50.282 GB
+Split the graph: 1.640 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00005 | Loss 2.9976 | Train 0.1786 | Val 0.0773 | Test 0.0594
+REG start----................................
+Convert a graph into a bidirected graph: 0.573 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.758 seconds, peak memory: 50.282 GB
+Split the graph: 1.582 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00006 | Loss 2.9412 | Train 0.1796 | Val 0.0776 | Test 0.0595
+REG start----................................
+Convert a graph into a bidirected graph: 0.609 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.716 seconds, peak memory: 50.282 GB
+Split the graph: 1.585 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00007 | Loss 2.8932 | Train 0.1833 | Val 0.0831 | Test 0.0646
+REG start----................................
+Convert a graph into a bidirected graph: 0.593 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.797 seconds, peak memory: 50.282 GB
+Split the graph: 1.632 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00008 | Loss 2.8498 | Train 0.2010 | Val 0.1203 | Test 0.0959
+REG start----................................
+Convert a graph into a bidirected graph: 0.621 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.854 seconds, peak memory: 50.282 GB
+Split the graph: 1.715 seconds
+Construct subgraphs: 0.022 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00009 | Loss 2.8091 | Train 0.2320 | Val 0.1968 | Test 0.1669
+REG start----................................
+Convert a graph into a bidirected graph: 0.563 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.681 seconds, peak memory: 50.282 GB
+Split the graph: 1.590 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00010 | Loss 2.7691 | Train 0.2522 | Val 0.2549 | Test 0.2253
+REG start----................................
+Convert a graph into a bidirected graph: 0.587 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.865 seconds, peak memory: 50.282 GB
+Split the graph: 1.578 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00011 | Loss 2.7282 | Train 0.2606 | Val 0.2777 | Test 0.2483
+REG start----................................
+Convert a graph into a bidirected graph: 0.579 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.914 seconds, peak memory: 50.282 GB
+Split the graph: 1.787 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00012 | Loss 2.6862 | Train 0.2660 | Val 0.2884 | Test 0.2578
+REG start----................................
+Convert a graph into a bidirected graph: 0.601 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.793 seconds, peak memory: 50.282 GB
+Split the graph: 1.689 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00013 | Loss 2.6434 | Train 0.2768 | Val 0.2986 | Test 0.2670
+REG start----................................
+Convert a graph into a bidirected graph: 0.649 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.878 seconds, peak memory: 50.282 GB
+Split the graph: 1.681 seconds
+Construct subgraphs: 0.024 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00014 | Loss 2.6016 | Train 0.2954 | Val 0.3135 | Test 0.2829
+REG start----................................
+Convert a graph into a bidirected graph: 0.578 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.700 seconds, peak memory: 50.282 GB
+Split the graph: 1.659 seconds
+Construct subgraphs: 0.022 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00015 | Loss 2.5613 | Train 0.3194 | Val 0.3349 | Test 0.3082
+REG start----................................
+Convert a graph into a bidirected graph: 0.568 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.761 seconds, peak memory: 50.282 GB
+Split the graph: 1.768 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00016 | Loss 2.5232 | Train 0.3427 | Val 0.3563 | Test 0.3410
+REG start----................................
+Convert a graph into a bidirected graph: 0.609 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.791 seconds, peak memory: 50.282 GB
+Split the graph: 1.705 seconds
+Construct subgraphs: 0.014 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00017 | Loss 2.4867 | Train 0.3600 | Val 0.3754 | Test 0.3685
+REG start----................................
+Convert a graph into a bidirected graph: 0.617 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.811 seconds, peak memory: 50.282 GB
+Split the graph: 1.654 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00018 | Loss 2.4515 | Train 0.3719 | Val 0.3857 | Test 0.3861
+REG start----................................
+Convert a graph into a bidirected graph: 0.625 seconds, peak memory: 50.282 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.282 GB
+Metis partitioning: 2.902 seconds, peak memory: 50.282 GB
+Split the graph: 1.834 seconds
+Construct subgraphs: 0.022 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00019 | Loss 2.4164 | Train 0.3783 | Val 0.3925 | Test 0.3940
+REG start----................................
+Convert a graph into a bidirected graph: 0.598 seconds, peak memory: 50.317 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.317 GB
+Metis partitioning: 2.859 seconds, peak memory: 50.317 GB
+Split the graph: 1.580 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00020 | Loss 2.3825 | Train 0.3822 | Val 0.3947 | Test 0.3959
+REG start----................................
+Convert a graph into a bidirected graph: 0.621 seconds, peak memory: 50.317 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.317 GB
+Metis partitioning: 2.879 seconds, peak memory: 50.317 GB
+Split the graph: 1.774 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00021 | Loss 2.3490 | Train 0.3845 | Val 0.3966 | Test 0.3943
+REG start----................................
+Convert a graph into a bidirected graph: 0.582 seconds, peak memory: 50.317 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.317 GB
+Metis partitioning: 2.855 seconds, peak memory: 50.317 GB
+Split the graph: 1.706 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00022 | Loss 2.3168 | Train 0.3856 | Val 0.3982 | Test 0.3916
+REG start----................................
+Convert a graph into a bidirected graph: 0.583 seconds, peak memory: 50.317 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.317 GB
+Metis partitioning: 2.965 seconds, peak memory: 50.317 GB
+Split the graph: 2.037 seconds
+Construct subgraphs: 0.016 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00023 | Loss 2.2859 | Train 0.3871 | Val 0.4005 | Test 0.3884
+REG start----................................
+Convert a graph into a bidirected graph: 0.619 seconds, peak memory: 50.317 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.317 GB
+Metis partitioning: 2.879 seconds, peak memory: 50.317 GB
+Split the graph: 1.607 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00024 | Loss 2.2561 | Train 0.3894 | Val 0.4036 | Test 0.3875
+REG start----................................
+Convert a graph into a bidirected graph: 0.605 seconds, peak memory: 50.317 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.317 GB
+Metis partitioning: 2.942 seconds, peak memory: 50.317 GB
+Split the graph: 1.560 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00025 | Loss 2.2275 | Train 0.3947 | Val 0.4079 | Test 0.3901
+REG start----................................
+Convert a graph into a bidirected graph: 0.596 seconds, peak memory: 50.317 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.317 GB
+Metis partitioning: 2.879 seconds, peak memory: 50.317 GB
+Split the graph: 1.666 seconds
+Construct subgraphs: 0.024 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00026 | Loss 2.2003 | Train 0.4019 | Val 0.4143 | Test 0.3963
+REG start----................................
+Convert a graph into a bidirected graph: 0.612 seconds, peak memory: 50.317 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.317 GB
+Metis partitioning: 2.923 seconds, peak memory: 50.317 GB
+Split the graph: 1.799 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00027 | Loss 2.1738 | Train 0.4116 | Val 0.4226 | Test 0.4048
+REG start----................................
+Convert a graph into a bidirected graph: 0.587 seconds, peak memory: 50.317 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.317 GB
+Metis partitioning: 2.928 seconds, peak memory: 50.317 GB
+Split the graph: 1.630 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00028 | Loss 2.1476 | Train 0.4220 | Val 0.4321 | Test 0.4144
+REG start----................................
+Convert a graph into a bidirected graph: 0.603 seconds, peak memory: 50.337 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.337 GB
+Metis partitioning: 2.735 seconds, peak memory: 50.337 GB
+Split the graph: 1.570 seconds
+Construct subgraphs: 0.006 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00029 | Loss 2.1229 | Train 0.4332 | Val 0.4442 | Test 0.4249
+REG start----................................
+Convert a graph into a bidirected graph: 0.603 seconds, peak memory: 50.337 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.337 GB
+Metis partitioning: 2.808 seconds, peak memory: 50.337 GB
+Split the graph: 1.707 seconds
+Construct subgraphs: 0.014 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00030 | Loss 2.0987 | Train 0.4443 | Val 0.4544 | Test 0.4372
+REG start----................................
+Convert a graph into a bidirected graph: 0.697 seconds, peak memory: 50.344 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.344 GB
+Metis partitioning: 2.784 seconds, peak memory: 50.344 GB
+Split the graph: 1.770 seconds
+Construct subgraphs: 0.023 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00031 | Loss 2.0760 | Train 0.4549 | Val 0.4649 | Test 0.4496
+REG start----................................
+Convert a graph into a bidirected graph: 0.611 seconds, peak memory: 50.344 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.344 GB
+Metis partitioning: 2.880 seconds, peak memory: 50.344 GB
+Split the graph: 1.768 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00032 | Loss 2.0545 | Train 0.4641 | Val 0.4755 | Test 0.4622
+REG start----................................
+Convert a graph into a bidirected graph: 0.582 seconds, peak memory: 50.344 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.344 GB
+Metis partitioning: 2.898 seconds, peak memory: 50.344 GB
+Split the graph: 1.547 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00033 | Loss 2.0338 | Train 0.4719 | Val 0.4846 | Test 0.4735
+REG start----................................
+Convert a graph into a bidirected graph: 0.614 seconds, peak memory: 50.344 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.344 GB
+Metis partitioning: 3.018 seconds, peak memory: 50.344 GB
+Split the graph: 1.857 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00034 | Loss 2.0141 | Train 0.4803 | Val 0.4939 | Test 0.4834
+REG start----................................
+Convert a graph into a bidirected graph: 0.615 seconds, peak memory: 50.344 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.344 GB
+Metis partitioning: 2.826 seconds, peak memory: 50.344 GB
+Split the graph: 1.566 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00035 | Loss 1.9948 | Train 0.4871 | Val 0.5010 | Test 0.4919
+REG start----................................
+Convert a graph into a bidirected graph: 0.602 seconds, peak memory: 50.344 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.344 GB
+Metis partitioning: 2.963 seconds, peak memory: 50.344 GB
+Split the graph: 1.727 seconds
+Construct subgraphs: 0.024 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00036 | Loss 1.9756 | Train 0.4925 | Val 0.5067 | Test 0.4987
+REG start----................................
+Convert a graph into a bidirected graph: 0.590 seconds, peak memory: 50.387 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.387 GB
+Metis partitioning: 2.936 seconds, peak memory: 50.387 GB
+Split the graph: 1.612 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00037 | Loss 1.9574 | Train 0.4972 | Val 0.5113 | Test 0.5035
+REG start----................................
+Convert a graph into a bidirected graph: 0.613 seconds, peak memory: 50.387 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.387 GB
+Metis partitioning: 2.870 seconds, peak memory: 50.387 GB
+Split the graph: 1.557 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00038 | Loss 1.9389 | Train 0.5006 | Val 0.5143 | Test 0.5062
+REG start----................................
+Convert a graph into a bidirected graph: 0.597 seconds, peak memory: 50.387 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.387 GB
+Metis partitioning: 2.961 seconds, peak memory: 50.387 GB
+Split the graph: 1.689 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00039 | Loss 1.9215 | Train 0.5032 | Val 0.5167 | Test 0.5085
+REG start----................................
+Convert a graph into a bidirected graph: 0.602 seconds, peak memory: 50.387 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.387 GB
+Metis partitioning: 2.907 seconds, peak memory: 50.387 GB
+Split the graph: 1.657 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00040 | Loss 1.9049 | Train 0.5053 | Val 0.5182 | Test 0.5110
+REG start----................................
+Convert a graph into a bidirected graph: 0.619 seconds, peak memory: 50.400 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.400 GB
+Metis partitioning: 2.925 seconds, peak memory: 50.400 GB
+Split the graph: 1.738 seconds
+Construct subgraphs: 0.020 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00041 | Loss 1.8886 | Train 0.5078 | Val 0.5198 | Test 0.5123
+REG start----................................
+Convert a graph into a bidirected graph: 0.591 seconds, peak memory: 50.400 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.400 GB
+Metis partitioning: 2.921 seconds, peak memory: 50.400 GB
+Split the graph: 1.685 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00042 | Loss 1.8730 | Train 0.5097 | Val 0.5214 | Test 0.5143
+REG start----................................
+Convert a graph into a bidirected graph: 0.647 seconds, peak memory: 50.400 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.400 GB
+Metis partitioning: 2.950 seconds, peak memory: 50.400 GB
+Split the graph: 1.521 seconds
+Construct subgraphs: 0.016 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00043 | Loss 1.8582 | Train 0.5115 | Val 0.5231 | Test 0.5167
+REG start----................................
+Convert a graph into a bidirected graph: 0.575 seconds, peak memory: 50.400 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.400 GB
+Metis partitioning: 2.958 seconds, peak memory: 50.400 GB
+Split the graph: 1.738 seconds
+Construct subgraphs: 0.016 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00044 | Loss 1.8436 | Train 0.5136 | Val 0.5241 | Test 0.5189
+REG start----................................
+Convert a graph into a bidirected graph: 0.592 seconds, peak memory: 50.400 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.400 GB
+Metis partitioning: 2.801 seconds, peak memory: 50.400 GB
+Split the graph: 1.685 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00045 | Loss 1.8303 | Train 0.5163 | Val 0.5269 | Test 0.5214
+REG start----................................
+Convert a graph into a bidirected graph: 0.595 seconds, peak memory: 50.400 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.400 GB
+Metis partitioning: 2.896 seconds, peak memory: 50.400 GB
+Split the graph: 1.712 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00046 | Loss 1.8169 | Train 0.5193 | Val 0.5292 | Test 0.5241
+REG start----................................
+Convert a graph into a bidirected graph: 0.585 seconds, peak memory: 50.400 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.400 GB
+Metis partitioning: 2.887 seconds, peak memory: 50.400 GB
+Split the graph: 1.622 seconds
+Construct subgraphs: 0.029 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00047 | Loss 1.8045 | Train 0.5223 | Val 0.5324 | Test 0.5273
+REG start----................................
+Convert a graph into a bidirected graph: 0.604 seconds, peak memory: 50.400 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.400 GB
+Metis partitioning: 2.945 seconds, peak memory: 50.400 GB
+Split the graph: 1.637 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00048 | Loss 1.7918 | Train 0.5254 | Val 0.5356 | Test 0.5298
+REG start----................................
+Convert a graph into a bidirected graph: 0.586 seconds, peak memory: 50.400 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.400 GB
+Metis partitioning: 2.967 seconds, peak memory: 50.400 GB
+Split the graph: 1.589 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00049 | Loss 1.7797 | Train 0.5288 | Val 0.5384 | Test 0.5327
+REG start----................................
+Convert a graph into a bidirected graph: 0.608 seconds, peak memory: 50.402 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.402 GB
+Metis partitioning: 2.960 seconds, peak memory: 50.402 GB
+Split the graph: 1.759 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00050 | Loss 1.7676 | Train 0.5319 | Val 0.5414 | Test 0.5354
+REG start----................................
+Convert a graph into a bidirected graph: 0.602 seconds, peak memory: 50.402 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.402 GB
+Metis partitioning: 3.054 seconds, peak memory: 50.402 GB
+Split the graph: 1.781 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00051 | Loss 1.7563 | Train 0.5349 | Val 0.5436 | Test 0.5382
+REG start----................................
+Convert a graph into a bidirected graph: 0.598 seconds, peak memory: 50.471 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.471 GB
+Metis partitioning: 3.008 seconds, peak memory: 50.471 GB
+Split the graph: 1.690 seconds
+Construct subgraphs: 0.017 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00052 | Loss 1.7453 | Train 0.5380 | Val 0.5456 | Test 0.5404
+REG start----................................
+Convert a graph into a bidirected graph: 0.615 seconds, peak memory: 50.471 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.471 GB
+Metis partitioning: 3.023 seconds, peak memory: 50.471 GB
+Split the graph: 1.733 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00053 | Loss 1.7349 | Train 0.5409 | Val 0.5483 | Test 0.5421
+REG start----................................
+Convert a graph into a bidirected graph: 0.632 seconds, peak memory: 50.471 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.471 GB
+Metis partitioning: 3.026 seconds, peak memory: 50.471 GB
+Split the graph: 1.956 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00054 | Loss 1.7244 | Train 0.5435 | Val 0.5505 | Test 0.5438
+REG start----................................
+Convert a graph into a bidirected graph: 0.598 seconds, peak memory: 50.471 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.471 GB
+Metis partitioning: 2.976 seconds, peak memory: 50.471 GB
+Split the graph: 1.692 seconds
+Construct subgraphs: 0.006 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00055 | Loss 1.7143 | Train 0.5456 | Val 0.5525 | Test 0.5461
+REG start----................................
+Convert a graph into a bidirected graph: 0.603 seconds, peak memory: 50.471 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.471 GB
+Metis partitioning: 2.903 seconds, peak memory: 50.471 GB
+Split the graph: 1.775 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00056 | Loss 1.7045 | Train 0.5475 | Val 0.5541 | Test 0.5480
+REG start----................................
+Convert a graph into a bidirected graph: 0.616 seconds, peak memory: 50.471 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.471 GB
+Metis partitioning: 2.978 seconds, peak memory: 50.471 GB
+Split the graph: 1.628 seconds
+Construct subgraphs: 0.015 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00057 | Loss 1.6950 | Train 0.5491 | Val 0.5557 | Test 0.5496
+REG start----................................
+Convert a graph into a bidirected graph: 0.614 seconds, peak memory: 50.471 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.471 GB
+Metis partitioning: 2.869 seconds, peak memory: 50.471 GB
+Split the graph: 1.684 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00058 | Loss 1.6862 | Train 0.5503 | Val 0.5575 | Test 0.5515
+REG start----................................
+Convert a graph into a bidirected graph: 0.588 seconds, peak memory: 50.493 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.493 GB
+Metis partitioning: 2.803 seconds, peak memory: 50.493 GB
+Split the graph: 1.775 seconds
+Construct subgraphs: 0.023 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00059 | Loss 1.6770 | Train 0.5514 | Val 0.5590 | Test 0.5529
+REG start----................................
+Convert a graph into a bidirected graph: 0.635 seconds, peak memory: 50.493 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.493 GB
+Metis partitioning: 2.953 seconds, peak memory: 50.493 GB
+Split the graph: 1.723 seconds
+Construct subgraphs: 0.020 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00060 | Loss 1.6683 | Train 0.5530 | Val 0.5606 | Test 0.5546
+REG start----................................
+Convert a graph into a bidirected graph: 0.601 seconds, peak memory: 50.493 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.493 GB
+Metis partitioning: 2.976 seconds, peak memory: 50.493 GB
+Split the graph: 1.602 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00061 | Loss 1.6599 | Train 0.5544 | Val 0.5623 | Test 0.5560
+REG start----................................
+Convert a graph into a bidirected graph: 0.615 seconds, peak memory: 50.545 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.545 GB
+Metis partitioning: 2.995 seconds, peak memory: 50.545 GB
+Split the graph: 1.618 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00062 | Loss 1.6516 | Train 0.5558 | Val 0.5639 | Test 0.5576
+REG start----................................
+Convert a graph into a bidirected graph: 0.616 seconds, peak memory: 50.545 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.545 GB
+Metis partitioning: 3.031 seconds, peak memory: 50.545 GB
+Split the graph: 1.667 seconds
+Construct subgraphs: 0.017 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00063 | Loss 1.6440 | Train 0.5575 | Val 0.5643 | Test 0.5592
+REG start----................................
+Convert a graph into a bidirected graph: 0.584 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 2.954 seconds, peak memory: 50.606 GB
+Split the graph: 1.585 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00064 | Loss 1.6364 | Train 0.5587 | Val 0.5657 | Test 0.5603
+REG start----................................
+Convert a graph into a bidirected graph: 0.616 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 2.987 seconds, peak memory: 50.606 GB
+Split the graph: 1.582 seconds
+Construct subgraphs: 0.021 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00065 | Loss 1.6286 | Train 0.5604 | Val 0.5670 | Test 0.5614
+REG start----................................
+Convert a graph into a bidirected graph: 0.606 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 2.973 seconds, peak memory: 50.606 GB
+Split the graph: 1.729 seconds
+Construct subgraphs: 0.018 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00066 | Loss 1.6215 | Train 0.5620 | Val 0.5677 | Test 0.5629
+REG start----................................
+Convert a graph into a bidirected graph: 0.603 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 3.000 seconds, peak memory: 50.606 GB
+Split the graph: 1.690 seconds
+Construct subgraphs: 0.024 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00067 | Loss 1.6141 | Train 0.5636 | Val 0.5687 | Test 0.5639
+REG start----................................
+Convert a graph into a bidirected graph: 0.582 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 3.044 seconds, peak memory: 50.606 GB
+Split the graph: 1.679 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00068 | Loss 1.6075 | Train 0.5649 | Val 0.5698 | Test 0.5655
+REG start----................................
+Convert a graph into a bidirected graph: 0.615 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 3.130 seconds, peak memory: 50.606 GB
+Split the graph: 1.822 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00069 | Loss 1.6007 | Train 0.5662 | Val 0.5716 | Test 0.5663
+REG start----................................
+Convert a graph into a bidirected graph: 0.614 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 3.029 seconds, peak memory: 50.606 GB
+Split the graph: 1.698 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00070 | Loss 1.5941 | Train 0.5678 | Val 0.5729 | Test 0.5677
+REG start----................................
+Convert a graph into a bidirected graph: 0.604 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 3.034 seconds, peak memory: 50.606 GB
+Split the graph: 1.650 seconds
+Construct subgraphs: 0.005 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00071 | Loss 1.5880 | Train 0.5691 | Val 0.5745 | Test 0.5685
+REG start----................................
+Convert a graph into a bidirected graph: 0.606 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 3.009 seconds, peak memory: 50.606 GB
+Split the graph: 1.630 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00072 | Loss 1.5814 | Train 0.5703 | Val 0.5760 | Test 0.5696
+REG start----................................
+Convert a graph into a bidirected graph: 0.631 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 3.077 seconds, peak memory: 50.606 GB
+Split the graph: 1.720 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00073 | Loss 1.5755 | Train 0.5713 | Val 0.5770 | Test 0.5702
+REG start----................................
+Convert a graph into a bidirected graph: 0.617 seconds, peak memory: 50.606 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.606 GB
+Metis partitioning: 3.137 seconds, peak memory: 50.606 GB
+Split the graph: 1.857 seconds
+Construct subgraphs: 0.016 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00074 | Loss 1.5692 | Train 0.5724 | Val 0.5783 | Test 0.5711
+REG start----................................
+Convert a graph into a bidirected graph: 0.607 seconds, peak memory: 50.625 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.625 GB
+Metis partitioning: 3.066 seconds, peak memory: 50.625 GB
+Split the graph: 1.774 seconds
+Construct subgraphs: 0.018 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00075 | Loss 1.5634 | Train 0.5734 | Val 0.5791 | Test 0.5720
+REG start----................................
+Convert a graph into a bidirected graph: 0.610 seconds, peak memory: 50.625 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.625 GB
+Metis partitioning: 3.070 seconds, peak memory: 50.625 GB
+Split the graph: 1.806 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00076 | Loss 1.5583 | Train 0.5745 | Val 0.5799 | Test 0.5726
+REG start----................................
+Convert a graph into a bidirected graph: 0.598 seconds, peak memory: 50.625 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.625 GB
+Metis partitioning: 3.090 seconds, peak memory: 50.625 GB
+Split the graph: 1.955 seconds
+Construct subgraphs: 0.017 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00077 | Loss 1.5525 | Train 0.5754 | Val 0.5807 | Test 0.5734
+REG start----................................
+Convert a graph into a bidirected graph: 0.623 seconds, peak memory: 50.625 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.625 GB
+Metis partitioning: 3.076 seconds, peak memory: 50.625 GB
+Split the graph: 1.856 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00078 | Loss 1.5470 | Train 0.5764 | Val 0.5817 | Test 0.5740
+REG start----................................
+Convert a graph into a bidirected graph: 0.603 seconds, peak memory: 50.625 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.625 GB
+Metis partitioning: 3.073 seconds, peak memory: 50.625 GB
+Split the graph: 1.913 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00079 | Loss 1.5417 | Train 0.5771 | Val 0.5827 | Test 0.5745
+REG start----................................
+Convert a graph into a bidirected graph: 0.607 seconds, peak memory: 50.625 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.625 GB
+Metis partitioning: 3.069 seconds, peak memory: 50.625 GB
+Split the graph: 1.524 seconds
+Construct subgraphs: 0.014 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00080 | Loss 1.5369 | Train 0.5779 | Val 0.5834 | Test 0.5751
+REG start----................................
+Convert a graph into a bidirected graph: 0.628 seconds, peak memory: 50.625 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.625 GB
+Metis partitioning: 3.059 seconds, peak memory: 50.625 GB
+Split the graph: 1.589 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00081 | Loss 1.5315 | Train 0.5788 | Val 0.5843 | Test 0.5763
+REG start----................................
+Convert a graph into a bidirected graph: 0.613 seconds, peak memory: 50.625 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.625 GB
+Metis partitioning: 3.091 seconds, peak memory: 50.625 GB
+Split the graph: 1.668 seconds
+Construct subgraphs: 0.019 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00082 | Loss 1.5265 | Train 0.5800 | Val 0.5852 | Test 0.5772
+REG start----................................
+Convert a graph into a bidirected graph: 0.589 seconds, peak memory: 50.625 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.625 GB
+Metis partitioning: 3.056 seconds, peak memory: 50.625 GB
+Split the graph: 1.658 seconds
+Construct subgraphs: 0.023 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00083 | Loss 1.5219 | Train 0.5811 | Val 0.5862 | Test 0.5779
+REG start----................................
+Convert a graph into a bidirected graph: 0.619 seconds, peak memory: 50.625 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.625 GB
+Metis partitioning: 3.044 seconds, peak memory: 50.625 GB
+Split the graph: 1.695 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00084 | Loss 1.5168 | Train 0.5821 | Val 0.5874 | Test 0.5787
+REG start----................................
+Convert a graph into a bidirected graph: 0.581 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 2.923 seconds, peak memory: 50.767 GB
+Split the graph: 1.605 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00085 | Loss 1.5123 | Train 0.5829 | Val 0.5885 | Test 0.5793
+REG start----................................
+Convert a graph into a bidirected graph: 0.615 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.034 seconds, peak memory: 50.767 GB
+Split the graph: 1.542 seconds
+Construct subgraphs: 0.018 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00086 | Loss 1.5079 | Train 0.5839 | Val 0.5895 | Test 0.5802
+REG start----................................
+Convert a graph into a bidirected graph: 0.594 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.064 seconds, peak memory: 50.767 GB
+Split the graph: 1.626 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00087 | Loss 1.5034 | Train 0.5846 | Val 0.5904 | Test 0.5810
+REG start----................................
+Convert a graph into a bidirected graph: 0.588 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.160 seconds, peak memory: 50.767 GB
+Split the graph: 1.745 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00088 | Loss 1.4996 | Train 0.5856 | Val 0.5910 | Test 0.5816
+REG start----................................
+Convert a graph into a bidirected graph: 0.602 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 2.908 seconds, peak memory: 50.767 GB
+Split the graph: 1.661 seconds
+Construct subgraphs: 0.005 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00089 | Loss 1.4951 | Train 0.5864 | Val 0.5918 | Test 0.5822
+REG start----................................
+Convert a graph into a bidirected graph: 0.598 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 2.933 seconds, peak memory: 50.767 GB
+Split the graph: 1.743 seconds
+Construct subgraphs: 0.005 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00090 | Loss 1.4906 | Train 0.5872 | Val 0.5923 | Test 0.5830
+REG start----................................
+Convert a graph into a bidirected graph: 0.613 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.032 seconds, peak memory: 50.767 GB
+Split the graph: 1.693 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00091 | Loss 1.4868 | Train 0.5882 | Val 0.5931 | Test 0.5836
+REG start----................................
+Convert a graph into a bidirected graph: 0.602 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 2.987 seconds, peak memory: 50.767 GB
+Split the graph: 1.704 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00092 | Loss 1.4825 | Train 0.5889 | Val 0.5933 | Test 0.5842
+REG start----................................
+Convert a graph into a bidirected graph: 0.592 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 2.963 seconds, peak memory: 50.767 GB
+Split the graph: 1.601 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00093 | Loss 1.4791 | Train 0.5897 | Val 0.5940 | Test 0.5848
+REG start----................................
+Convert a graph into a bidirected graph: 0.597 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.133 seconds, peak memory: 50.767 GB
+Split the graph: 1.853 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00094 | Loss 1.4751 | Train 0.5905 | Val 0.5953 | Test 0.5852
+REG start----................................
+Convert a graph into a bidirected graph: 0.620 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.106 seconds, peak memory: 50.767 GB
+Split the graph: 1.652 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00095 | Loss 1.4710 | Train 0.5911 | Val 0.5959 | Test 0.5858
+REG start----................................
+Convert a graph into a bidirected graph: 0.612 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 2.999 seconds, peak memory: 50.767 GB
+Split the graph: 1.645 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00096 | Loss 1.4677 | Train 0.5916 | Val 0.5964 | Test 0.5864
+REG start----................................
+Convert a graph into a bidirected graph: 0.598 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.067 seconds, peak memory: 50.767 GB
+Split the graph: 1.665 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00097 | Loss 1.4639 | Train 0.5924 | Val 0.5971 | Test 0.5872
+REG start----................................
+Convert a graph into a bidirected graph: 0.616 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.062 seconds, peak memory: 50.767 GB
+Split the graph: 1.719 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00098 | Loss 1.4605 | Train 0.5931 | Val 0.5978 | Test 0.5878
+REG start----................................
+Convert a graph into a bidirected graph: 0.594 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 2.988 seconds, peak memory: 50.767 GB
+Split the graph: 1.737 seconds
+Construct subgraphs: 0.005 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00099 | Loss 1.4571 | Train 0.5937 | Val 0.5988 | Test 0.5884
+REG start----................................
+Convert a graph into a bidirected graph: 0.586 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.061 seconds, peak memory: 50.767 GB
+Split the graph: 1.770 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00100 | Loss 1.4533 | Train 0.5943 | Val 0.5994 | Test 0.5887
+REG start----................................
+Convert a graph into a bidirected graph: 0.636 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.048 seconds, peak memory: 50.767 GB
+Split the graph: 1.633 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00101 | Loss 1.4502 | Train 0.5949 | Val 0.6004 | Test 0.5892
+REG start----................................
+Convert a graph into a bidirected graph: 0.590 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.152 seconds, peak memory: 50.767 GB
+Split the graph: 1.797 seconds
+Construct subgraphs: 0.006 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00102 | Loss 1.4466 | Train 0.5957 | Val 0.6009 | Test 0.5896
+REG start----................................
+Convert a graph into a bidirected graph: 0.599 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.089 seconds, peak memory: 50.767 GB
+Split the graph: 1.656 seconds
+Construct subgraphs: 0.018 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00103 | Loss 1.4441 | Train 0.5964 | Val 0.6015 | Test 0.5903
+REG start----................................
+Convert a graph into a bidirected graph: 0.593 seconds, peak memory: 50.767 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.767 GB
+Metis partitioning: 3.150 seconds, peak memory: 50.767 GB
+Split the graph: 1.809 seconds
+Construct subgraphs: 0.018 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00104 | Loss 1.4405 | Train 0.5969 | Val 0.6022 | Test 0.5907
+REG start----................................
+Convert a graph into a bidirected graph: 0.594 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.126 seconds, peak memory: 50.778 GB
+Split the graph: 1.705 seconds
+Construct subgraphs: 0.020 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00105 | Loss 1.4373 | Train 0.5976 | Val 0.6029 | Test 0.5913
+REG start----................................
+Convert a graph into a bidirected graph: 0.596 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.008 seconds, peak memory: 50.778 GB
+Split the graph: 1.590 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00106 | Loss 1.4345 | Train 0.5981 | Val 0.6035 | Test 0.5920
+REG start----................................
+Convert a graph into a bidirected graph: 0.615 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.118 seconds, peak memory: 50.778 GB
+Split the graph: 1.698 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00107 | Loss 1.4314 | Train 0.5987 | Val 0.6041 | Test 0.5924
+REG start----................................
+Convert a graph into a bidirected graph: 0.611 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.071 seconds, peak memory: 50.778 GB
+Split the graph: 1.541 seconds
+Construct subgraphs: 0.014 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00108 | Loss 1.4287 | Train 0.5992 | Val 0.6047 | Test 0.5930
+REG start----................................
+Convert a graph into a bidirected graph: 0.587 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.061 seconds, peak memory: 50.778 GB
+Split the graph: 1.560 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00109 | Loss 1.4253 | Train 0.5999 | Val 0.6052 | Test 0.5936
+REG start----................................
+Convert a graph into a bidirected graph: 0.594 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.003 seconds, peak memory: 50.778 GB
+Split the graph: 1.582 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00110 | Loss 1.4228 | Train 0.6006 | Val 0.6055 | Test 0.5943
+REG start----................................
+Convert a graph into a bidirected graph: 0.582 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.032 seconds, peak memory: 50.778 GB
+Split the graph: 1.565 seconds
+Construct subgraphs: 0.017 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00111 | Loss 1.4200 | Train 0.6013 | Val 0.6059 | Test 0.5946
+REG start----................................
+Convert a graph into a bidirected graph: 0.602 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.127 seconds, peak memory: 50.778 GB
+Split the graph: 1.609 seconds
+Construct subgraphs: 0.015 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00112 | Loss 1.4168 | Train 0.6018 | Val 0.6064 | Test 0.5952
+REG start----................................
+Convert a graph into a bidirected graph: 0.579 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 2.965 seconds, peak memory: 50.778 GB
+Split the graph: 1.763 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00113 | Loss 1.4143 | Train 0.6023 | Val 0.6069 | Test 0.5955
+REG start----................................
+Convert a graph into a bidirected graph: 0.618 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.190 seconds, peak memory: 50.778 GB
+Split the graph: 1.764 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00114 | Loss 1.4113 | Train 0.6029 | Val 0.6074 | Test 0.5957
+REG start----................................
+Convert a graph into a bidirected graph: 0.593 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.065 seconds, peak memory: 50.778 GB
+Split the graph: 1.680 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00115 | Loss 1.4088 | Train 0.6033 | Val 0.6079 | Test 0.5961
+REG start----................................
+Convert a graph into a bidirected graph: 0.588 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.151 seconds, peak memory: 50.778 GB
+Split the graph: 1.751 seconds
+Construct subgraphs: 0.004 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00116 | Loss 1.4067 | Train 0.6038 | Val 0.6083 | Test 0.5970
+REG start----................................
+Convert a graph into a bidirected graph: 0.600 seconds, peak memory: 50.778 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.778 GB
+Metis partitioning: 3.018 seconds, peak memory: 50.778 GB
+Split the graph: 1.617 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00117 | Loss 1.4040 | Train 0.6045 | Val 0.6087 | Test 0.5972
+REG start----................................
+Convert a graph into a bidirected graph: 0.600 seconds, peak memory: 50.786 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.786 GB
+Metis partitioning: 3.061 seconds, peak memory: 50.786 GB
+Split the graph: 1.678 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00118 | Loss 1.4015 | Train 0.6052 | Val 0.6094 | Test 0.5980
+REG start----................................
+Convert a graph into a bidirected graph: 0.619 seconds, peak memory: 50.786 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.786 GB
+Metis partitioning: 3.164 seconds, peak memory: 50.786 GB
+Split the graph: 1.597 seconds
+Construct subgraphs: 0.015 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00119 | Loss 1.3987 | Train 0.6056 | Val 0.6099 | Test 0.5982
+REG start----................................
+Convert a graph into a bidirected graph: 0.649 seconds, peak memory: 50.786 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.786 GB
+Metis partitioning: 3.099 seconds, peak memory: 50.786 GB
+Split the graph: 1.689 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00120 | Loss 1.3962 | Train 0.6060 | Val 0.6103 | Test 0.5985
+REG start----................................
+Convert a graph into a bidirected graph: 0.594 seconds, peak memory: 50.786 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.786 GB
+Metis partitioning: 3.106 seconds, peak memory: 50.786 GB
+Split the graph: 1.710 seconds
+Construct subgraphs: 0.032 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00121 | Loss 1.3942 | Train 0.6064 | Val 0.6109 | Test 0.5990
+REG start----................................
+Convert a graph into a bidirected graph: 0.598 seconds, peak memory: 50.786 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.786 GB
+Metis partitioning: 3.036 seconds, peak memory: 50.786 GB
+Split the graph: 1.667 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00122 | Loss 1.3916 | Train 0.6069 | Val 0.6113 | Test 0.5994
+REG start----................................
+Convert a graph into a bidirected graph: 0.588 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.052 seconds, peak memory: 50.829 GB
+Split the graph: 1.682 seconds
+Construct subgraphs: 0.021 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00123 | Loss 1.3895 | Train 0.6075 | Val 0.6117 | Test 0.6000
+REG start----................................
+Convert a graph into a bidirected graph: 0.600 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.086 seconds, peak memory: 50.829 GB
+Split the graph: 1.618 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00124 | Loss 1.3872 | Train 0.6079 | Val 0.6122 | Test 0.6003
+REG start----................................
+Convert a graph into a bidirected graph: 0.589 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.081 seconds, peak memory: 50.829 GB
+Split the graph: 1.624 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00125 | Loss 1.3848 | Train 0.6084 | Val 0.6125 | Test 0.6006
+REG start----................................
+Convert a graph into a bidirected graph: 0.618 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.156 seconds, peak memory: 50.829 GB
+Split the graph: 1.624 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00126 | Loss 1.3825 | Train 0.6089 | Val 0.6129 | Test 0.6008
+REG start----................................
+Convert a graph into a bidirected graph: 0.617 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.125 seconds, peak memory: 50.829 GB
+Split the graph: 1.627 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00127 | Loss 1.3807 | Train 0.6093 | Val 0.6136 | Test 0.6013
+REG start----................................
+Convert a graph into a bidirected graph: 0.621 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.047 seconds, peak memory: 50.829 GB
+Split the graph: 1.612 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00128 | Loss 1.3782 | Train 0.6098 | Val 0.6138 | Test 0.6018
+REG start----................................
+Convert a graph into a bidirected graph: 0.606 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.162 seconds, peak memory: 50.829 GB
+Split the graph: 1.580 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00129 | Loss 1.3758 | Train 0.6102 | Val 0.6143 | Test 0.6022
+REG start----................................
+Convert a graph into a bidirected graph: 0.584 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.016 seconds, peak memory: 50.829 GB
+Split the graph: 1.577 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00130 | Loss 1.3741 | Train 0.6106 | Val 0.6147 | Test 0.6027
+REG start----................................
+Convert a graph into a bidirected graph: 0.625 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.078 seconds, peak memory: 50.829 GB
+Split the graph: 1.731 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00131 | Loss 1.3719 | Train 0.6110 | Val 0.6153 | Test 0.6031
+REG start----................................
+Convert a graph into a bidirected graph: 0.626 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 2.994 seconds, peak memory: 50.829 GB
+Split the graph: 1.726 seconds
+Construct subgraphs: 0.006 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00132 | Loss 1.3699 | Train 0.6113 | Val 0.6158 | Test 0.6036
+REG start----................................
+Convert a graph into a bidirected graph: 0.582 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.050 seconds, peak memory: 50.829 GB
+Split the graph: 1.837 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00133 | Loss 1.3683 | Train 0.6117 | Val 0.6163 | Test 0.6038
+REG start----................................
+Convert a graph into a bidirected graph: 0.587 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.113 seconds, peak memory: 50.829 GB
+Split the graph: 1.861 seconds
+Construct subgraphs: 0.022 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00134 | Loss 1.3663 | Train 0.6120 | Val 0.6166 | Test 0.6043
+REG start----................................
+Convert a graph into a bidirected graph: 0.577 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.142 seconds, peak memory: 50.829 GB
+Split the graph: 1.630 seconds
+Construct subgraphs: 0.006 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00135 | Loss 1.3643 | Train 0.6124 | Val 0.6167 | Test 0.6044
+REG start----................................
+Convert a graph into a bidirected graph: 0.620 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.106 seconds, peak memory: 50.829 GB
+Split the graph: 1.700 seconds
+Construct subgraphs: 0.005 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00136 | Loss 1.3622 | Train 0.6128 | Val 0.6170 | Test 0.6047
+REG start----................................
+Convert a graph into a bidirected graph: 0.614 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.176 seconds, peak memory: 50.829 GB
+Split the graph: 1.653 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00137 | Loss 1.3602 | Train 0.6130 | Val 0.6170 | Test 0.6051
+REG start----................................
+Convert a graph into a bidirected graph: 0.625 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.126 seconds, peak memory: 50.829 GB
+Split the graph: 1.757 seconds
+Construct subgraphs: 0.004 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00138 | Loss 1.3578 | Train 0.6134 | Val 0.6174 | Test 0.6054
+REG start----................................
+Convert a graph into a bidirected graph: 0.608 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.037 seconds, peak memory: 50.829 GB
+Split the graph: 1.655 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00139 | Loss 1.3564 | Train 0.6138 | Val 0.6176 | Test 0.6057
+REG start----................................
+Convert a graph into a bidirected graph: 0.605 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.353 seconds, peak memory: 50.829 GB
+Split the graph: 1.605 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00140 | Loss 1.3544 | Train 0.6143 | Val 0.6179 | Test 0.6062
+REG start----................................
+Convert a graph into a bidirected graph: 0.593 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.188 seconds, peak memory: 50.829 GB
+Split the graph: 1.632 seconds
+Construct subgraphs: 0.016 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00141 | Loss 1.3529 | Train 0.6146 | Val 0.6182 | Test 0.6065
+REG start----................................
+Convert a graph into a bidirected graph: 0.603 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.160 seconds, peak memory: 50.829 GB
+Split the graph: 1.735 seconds
+Construct subgraphs: 0.024 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00142 | Loss 1.3515 | Train 0.6149 | Val 0.6187 | Test 0.6069
+REG start----................................
+Convert a graph into a bidirected graph: 0.602 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.077 seconds, peak memory: 50.829 GB
+Split the graph: 1.849 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00143 | Loss 1.3490 | Train 0.6154 | Val 0.6191 | Test 0.6071
+REG start----................................
+Convert a graph into a bidirected graph: 0.599 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.106 seconds, peak memory: 50.829 GB
+Split the graph: 1.803 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00144 | Loss 1.3475 | Train 0.6158 | Val 0.6193 | Test 0.6075
+REG start----................................
+Convert a graph into a bidirected graph: 0.612 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.172 seconds, peak memory: 50.829 GB
+Split the graph: 1.830 seconds
+Construct subgraphs: 0.016 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00145 | Loss 1.3456 | Train 0.6162 | Val 0.6197 | Test 0.6076
+REG start----................................
+Convert a graph into a bidirected graph: 0.591 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.131 seconds, peak memory: 50.829 GB
+Split the graph: 1.673 seconds
+Construct subgraphs: 0.027 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00146 | Loss 1.3443 | Train 0.6165 | Val 0.6201 | Test 0.6079
+REG start----................................
+Convert a graph into a bidirected graph: 0.631 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.188 seconds, peak memory: 50.829 GB
+Split the graph: 1.677 seconds
+Construct subgraphs: 0.005 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00147 | Loss 1.3431 | Train 0.6168 | Val 0.6204 | Test 0.6080
+REG start----................................
+Convert a graph into a bidirected graph: 0.603 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.153 seconds, peak memory: 50.829 GB
+Split the graph: 1.588 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00148 | Loss 1.3405 | Train 0.6171 | Val 0.6209 | Test 0.6084
+REG start----................................
+Convert a graph into a bidirected graph: 0.627 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.213 seconds, peak memory: 50.829 GB
+Split the graph: 1.605 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00149 | Loss 1.3393 | Train 0.6175 | Val 0.6211 | Test 0.6087
+REG start----................................
+Convert a graph into a bidirected graph: 0.596 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.120 seconds, peak memory: 50.829 GB
+Split the graph: 1.785 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00150 | Loss 1.3371 | Train 0.6179 | Val 0.6214 | Test 0.6091
+REG start----................................
+Convert a graph into a bidirected graph: 0.601 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.163 seconds, peak memory: 50.829 GB
+Split the graph: 1.626 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00151 | Loss 1.3354 | Train 0.6182 | Val 0.6216 | Test 0.6094
+REG start----................................
+Convert a graph into a bidirected graph: 0.628 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.233 seconds, peak memory: 50.829 GB
+Split the graph: 1.824 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00152 | Loss 1.3343 | Train 0.6186 | Val 0.6221 | Test 0.6097
+REG start----................................
+Convert a graph into a bidirected graph: 0.560 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.056 seconds, peak memory: 50.829 GB
+Split the graph: 1.642 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00153 | Loss 1.3328 | Train 0.6188 | Val 0.6223 | Test 0.6099
+REG start----................................
+Convert a graph into a bidirected graph: 0.591 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.113 seconds, peak memory: 50.829 GB
+Split the graph: 1.628 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00154 | Loss 1.3312 | Train 0.6193 | Val 0.6224 | Test 0.6101
+REG start----................................
+Convert a graph into a bidirected graph: 0.609 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.140 seconds, peak memory: 50.829 GB
+Split the graph: 1.602 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00155 | Loss 1.3295 | Train 0.6197 | Val 0.6227 | Test 0.6105
+REG start----................................
+Convert a graph into a bidirected graph: 0.643 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.166 seconds, peak memory: 50.829 GB
+Split the graph: 1.586 seconds
+Construct subgraphs: 0.004 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00156 | Loss 1.3282 | Train 0.6201 | Val 0.6229 | Test 0.6108
+REG start----................................
+Convert a graph into a bidirected graph: 0.580 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.059 seconds, peak memory: 50.829 GB
+Split the graph: 1.647 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00157 | Loss 1.3267 | Train 0.6205 | Val 0.6230 | Test 0.6110
+REG start----................................
+Convert a graph into a bidirected graph: 0.608 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.209 seconds, peak memory: 50.829 GB
+Split the graph: 1.727 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00158 | Loss 1.3248 | Train 0.6206 | Val 0.6233 | Test 0.6111
+REG start----................................
+Convert a graph into a bidirected graph: 0.619 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.193 seconds, peak memory: 50.829 GB
+Split the graph: 1.733 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00159 | Loss 1.3242 | Train 0.6210 | Val 0.6237 | Test 0.6112
+REG start----................................
+Convert a graph into a bidirected graph: 0.611 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.182 seconds, peak memory: 50.829 GB
+Split the graph: 1.710 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00160 | Loss 1.3226 | Train 0.6211 | Val 0.6240 | Test 0.6115
+REG start----................................
+Convert a graph into a bidirected graph: 0.607 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.273 seconds, peak memory: 50.829 GB
+Split the graph: 1.868 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00161 | Loss 1.3215 | Train 0.6215 | Val 0.6244 | Test 0.6119
+REG start----................................
+Convert a graph into a bidirected graph: 0.617 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.163 seconds, peak memory: 50.829 GB
+Split the graph: 1.647 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00162 | Loss 1.3200 | Train 0.6220 | Val 0.6246 | Test 0.6120
+REG start----................................
+Convert a graph into a bidirected graph: 0.588 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.145 seconds, peak memory: 50.829 GB
+Split the graph: 1.598 seconds
+Construct subgraphs: 0.008 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00163 | Loss 1.3184 | Train 0.6222 | Val 0.6247 | Test 0.6123
+REG start----................................
+Convert a graph into a bidirected graph: 0.587 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.218 seconds, peak memory: 50.829 GB
+Split the graph: 1.793 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00164 | Loss 1.3168 | Train 0.6225 | Val 0.6251 | Test 0.6126
+REG start----................................
+Convert a graph into a bidirected graph: 0.576 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.168 seconds, peak memory: 50.829 GB
+Split the graph: 1.917 seconds
+Construct subgraphs: 0.023 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00165 | Loss 1.3159 | Train 0.6227 | Val 0.6253 | Test 0.6128
+REG start----................................
+Convert a graph into a bidirected graph: 0.585 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.256 seconds, peak memory: 50.829 GB
+Split the graph: 1.674 seconds
+Construct subgraphs: 0.017 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00166 | Loss 1.3142 | Train 0.6231 | Val 0.6256 | Test 0.6130
+REG start----................................
+Convert a graph into a bidirected graph: 0.588 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.206 seconds, peak memory: 50.829 GB
+Split the graph: 1.713 seconds
+Construct subgraphs: 0.030 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00167 | Loss 1.3126 | Train 0.6233 | Val 0.6258 | Test 0.6131
+REG start----................................
+Convert a graph into a bidirected graph: 0.608 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.205 seconds, peak memory: 50.829 GB
+Split the graph: 1.640 seconds
+Construct subgraphs: 0.004 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00168 | Loss 1.3120 | Train 0.6237 | Val 0.6260 | Test 0.6133
+REG start----................................
+Convert a graph into a bidirected graph: 0.609 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.215 seconds, peak memory: 50.829 GB
+Split the graph: 1.670 seconds
+Construct subgraphs: 0.013 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00169 | Loss 1.3104 | Train 0.6239 | Val 0.6262 | Test 0.6134
+REG start----................................
+Convert a graph into a bidirected graph: 0.616 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.206 seconds, peak memory: 50.829 GB
+Split the graph: 1.812 seconds
+Construct subgraphs: 0.018 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00170 | Loss 1.3093 | Train 0.6242 | Val 0.6265 | Test 0.6136
+REG start----................................
+Convert a graph into a bidirected graph: 0.604 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.203 seconds, peak memory: 50.829 GB
+Split the graph: 1.643 seconds
+Construct subgraphs: 0.020 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00171 | Loss 1.3079 | Train 0.6244 | Val 0.6267 | Test 0.6137
+REG start----................................
+Convert a graph into a bidirected graph: 0.596 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.195 seconds, peak memory: 50.829 GB
+Split the graph: 1.814 seconds
+Construct subgraphs: 0.030 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00172 | Loss 1.3067 | Train 0.6248 | Val 0.6269 | Test 0.6140
+REG start----................................
+Convert a graph into a bidirected graph: 0.601 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.211 seconds, peak memory: 50.829 GB
+Split the graph: 1.668 seconds
+Construct subgraphs: 0.027 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00173 | Loss 1.3058 | Train 0.6250 | Val 0.6271 | Test 0.6142
+REG start----................................
+Convert a graph into a bidirected graph: 0.612 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.234 seconds, peak memory: 50.829 GB
+Split the graph: 1.608 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00174 | Loss 1.3042 | Train 0.6252 | Val 0.6272 | Test 0.6144
+REG start----................................
+Convert a graph into a bidirected graph: 0.609 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.244 seconds, peak memory: 50.829 GB
+Split the graph: 1.627 seconds
+Construct subgraphs: 0.007 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00175 | Loss 1.3027 | Train 0.6252 | Val 0.6271 | Test 0.6148
+REG start----................................
+Convert a graph into a bidirected graph: 0.626 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.254 seconds, peak memory: 50.829 GB
+Split the graph: 1.699 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00176 | Loss 1.3021 | Train 0.6253 | Val 0.6272 | Test 0.6148
+REG start----................................
+Convert a graph into a bidirected graph: 0.605 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.103 seconds, peak memory: 50.829 GB
+Split the graph: 1.695 seconds
+Construct subgraphs: 0.006 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00177 | Loss 1.3006 | Train 0.6255 | Val 0.6274 | Test 0.6150
+REG start----................................
+Convert a graph into a bidirected graph: 0.601 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.183 seconds, peak memory: 50.829 GB
+Split the graph: 1.573 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00178 | Loss 1.2991 | Train 0.6260 | Val 0.6278 | Test 0.6152
+REG start----................................
+Convert a graph into a bidirected graph: 0.596 seconds, peak memory: 50.829 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.829 GB
+Metis partitioning: 3.197 seconds, peak memory: 50.829 GB
+Split the graph: 1.627 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+Run 00 | Epoch 00179 | Loss 1.2984 | Train 0.6263 | Val 0.6280 | Test 0.6153
